@@ -14,7 +14,7 @@ theme = "paper"
     # home page profile
     # avatar = ''  # Gravatar email or image url(e.g. "https://deno.land/logo.svg")
     name = 'Robin Valk'
-    bio = "After consuming a lot of other people's content I wanted to have create my own. Here you can find some of my brain dumps on varying topics, please read at your own risk!"
+    bio = "After consuming a lot of content from fellow nerds I want to create my own. Here you can find some of my brain dumps on varying topics. I'm not necessarily planning on making them all technical."
 
     # misc
     disableHLJS = true              # disable requesting highlight.js
