@@ -6,7 +6,7 @@ draft: false
 
 Let me start my blog with a meta topic, my blog setup itself. Inspired by some blogs of fellow nerds I wanted to keep the setup simple.
 
-As far as I can tell the requirements for owning a blog are straightforward. You need a blogging platform, hosting and some content. My personal preference goes to a simplistic design that focusses on the content. If you are reading this post you can tell that even I managed to get a blog up and running. You can use this post to inspire yourself to create your own. It won't be a tutorial or end with a real conclusion. It should just give some insight on my decisions and link you to some correct pages to get your own blog started.
+As far as I can tell the requirements for owning a blog are straightforward. You need a blogging platform, hosting and some content. My personal preference goes to a simplistic design that focusses on the content. If you are reading this post you can tell that even I managed to get a blog up and running. You can use this post to inspire yourself to create your own. Don't expect this to be a tutorial or to have a real conclusion at the end. It will just give some insights on my decisions and it links you to some resources that will allow you to get your own blog started, if you desire to do so ofcourse.
 
 
 ## Blogging platform
@@ -15,18 +15,18 @@ As far as I can tell the requirements for owning a blog are straightforward. You
 
 I want to keep it simple. I don't care about an admin interface, automatic posting to social media, a hotmap on how my users interact with the website or any other features that don't really matter and half the time invade our privacy anyways. I want it to be managed by myself and not use a system like Medium.
 
-Markdown is my prefered format for writing so the tool should support that. It should be easy and cheap to host because I have enough expensive and time consuming hobbies already. _Bugfixing a blog is not a hobby I'd like to pick up on._ Lastly one important requirement for me is that it should come with some themes so I hardly have to touch the HTML and CSS. Last but not least, it should be free!
+Markdown is my prefered format for writing so the tool should support that. It should be easy and cheap to host because I have enough expensive and time consuming hobbies already. _FYI: bugfixing a blog is not a hobby I'd like to pick up on._ Another important requirement for me is that it comes with pre-made themes so I hardly have to touch the HTML and CSS. Last but not least, it should be free!
 
 - Self managed
 - Simple create and maintain
 - Markdown support
 - Easy and cheap (if not free) to host
-- Themes support
+- Pre-made themes
 - Free to use
 
 ### Options
 
-After some quick googling and getting inspiration from other blogs I came to the following options:
+After some quick research using Google and getting blog platform usage inspiration from other blogs I came to the following options:
 
 #### 1. WordPress
 
@@ -47,9 +47,9 @@ __I don't want a new hobby of maintaining and bugfixing my blog.__
 
 Somehow Ghost had a good impression in my head. That's why it was one of the items on the list to check it out.
 
-Looking at their landing page they went the commercial direction. I guess that's good for them but not so much for me. They show a really slick admin environment with membership statistics as a big graphic on their website. The design looks really good!
+Looking at their landing page they went the commercial direction. I guess that's good for them but not so much for me. They show a really slick admin environment with membership statistics as a big graphic on their website. The design looks really nice!
 
-I'm not focused on monetization and making money with my blog. So Ghost is for me not a match. If you are a "new-media creator to publish, share, and grow a business around your content", then I would definitely check them out.
+I'm not focused on monetization and making money with my blog. So for me Ghost is not a match. If you are, in their words, a "new-media creator to publish, share, and grow a business around your content", then I would definitely check them out.
 
 
 #### 3. Jykyll
@@ -60,7 +60,7 @@ I have to be honest and say that I didn't spend a lot of effort into researching
 
 One of the blogs I'm always looking forward to read is https://berthub.eu/articles/. This guy knows what he is talking about and somehow manages to find interesting topics everywhere. The blog itself is easy to read as it's very clean and "peaceful".
 
-So what you do when you get a bit jealous?! You copy their setup! No that's not exactly what I did but I did check what system he is using. The sourcecode contained the following snippet:
+So what you do when you get jealous of another blog setup?! You copy their setup! No that's not exactly what I did but I did check what system he is using. The sourcecode contained the following snippet:
 
 ```html
 <meta name="generator" content="Hugo 0.102.3" />
@@ -68,22 +68,28 @@ So what you do when you get a bit jealous?! You copy their setup! No that's not 
 
 After quickly looking at Hugo it seems to check all the boxes. It's simple to install, easy to get up to speed with, supports markdown, it is free and open source, it is easy to deploy, it has theming support with over 300 themes available and many more features that I don't need but aren't a burden by default.
 
-In fact it was so simple to start using Hugo, that the first draft of this page was created only 30 minutes after playing around with it. Choosing a theme was the difficult part as I wanted the same clean feel as Bert has on his blog. But once that finished, deciding on the blogging platform was also finished.
+In fact it was so simple to start using Hugo, that the first draft of this page was created only 30 minutes after playing around with it. Picking a theme was the difficult part as I want the same clean feel as Bert has on his blog. But once I was done picking a theme, I also really was done deciding on the blogging platform. Hugo it is!
 
 ## Hosting
 
-Like most nerds I have some domain names registered and have succesfully neglected them with a `Hello World!` placeholder. _Secretly this blog is just an excuse to extend at least one of domains a little longer but don't judge me._
+Like most nerds I have some domain names registered and have succesfully neglected them with a `Hello World!` placeholder.
 
-This `Hello World!` page was running using Github Pages for more then 4 years for free. As I'm happy with it I am using it again.
+_(Secretly this blog is just an excuse to extend at least one domain name a little longer. Don't judge me!)_
+
+This `Hello World!` page was running using Github Pages for more then 4 years for free. So this time I'm using it again.
 
 With the following documentation of Hugo and Github the blog was online in no-time:
 - https://gohugo.io/hosting-and-deployment/hosting-on-github/
 - https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/about-custom-domains-and-github-pages
+
+All you really need, to have yourself your own website for free, is repo named according to your Github profile. In the repo settings you can then enable Github Pages. If you also want a custom domain, then you'll have to setup some DNS records and point them to the Github's servers. But that's really it.
 
 
 ## Content
 
 Maybe the most important and difficult part of a blog is the content. Finding topics is not easy, it's even more difficult to write a nice article about it that is pleasant to read. Yet that doesn't mean it's not worth a try!
 
-Reading blogs gives me a great amount of joy. You always learn something new, discover new topics, find interests that you didn't know you had. Often you read about things that you don't deal with on a day to day basis. I need a place to dump my thoughts about the many random interests I have. Hopefully this blog will be just the right place.
+Reading blogs gives a great amount of joy, at least for me. You always learn something new, discover new topics, find interests that you didn't know you had. Often you read about things that you don't deal with on a day to day basis but still somehow find it interesting enough to read a long article about.
+
+I need a place to dump my thoughts on the many interests I have and topics I come accross. Hopefully this blog will be just the right place. Thank you!
 
