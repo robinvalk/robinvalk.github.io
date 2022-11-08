@@ -1,0 +1,45 @@
+baseURL = 'https://robinvalk.xyz/'
+languageCode = 'en-gb'
+title = 'robinvalk.xyz'
+theme = "paper"
+
+[params]
+    color="gray"
+
+    # header social icons
+    twitter = 'robin_valk'         # twitter.com/YOUR_TWITTER_ID
+    github = 'robinvalk'           # github.com/YOUR_GITHUB_ID
+    rss = true                     # show rss icon with link
+
+    # home page profile
+    # avatar = ''  # Gravatar email or image url(e.g. "https://deno.land/logo.svg")
+    name = 'Robin Valk'
+    bio = "After consuming a lot of other people's content I wanted to have create my own. Here you can find some of my brain dumps on varying topics, please read at your own risk!"
+
+    # misc
+    disableHLJS = true              # disable requesting highlight.js
+    monoDarkIcon = false             # show monochrome dark mode icon
+
+
+[privacy]
+  [privacy.disqus]
+    disable = true
+  [privacy.googleAnalytics]
+    anonymizeIP = true
+    disable = true
+    respectDoNotTrack = true
+    useSessionStorage = true
+  [privacy.instagram]
+    disable = true
+    simple = false
+  [privacy.twitter]
+    disable = false
+    enableDNT = true
+    simple = false
+  [privacy.vimeo]
+    disable = true
+    enableDNT = true
+    simple = false
+  [privacy.youtube]
+    disable = false
+    privacyEnhanced = true
