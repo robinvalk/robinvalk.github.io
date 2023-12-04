@@ -1,16 +1,17 @@
 ---
 title: "Notes on: AWS re:Invent 2023 - Keynote with Dr. Werner Vogels"
+author: "Robin Valk"
 date: 2023-12-04T20:00:00+01:00
 draft: false
 ---
 
-In [AWS re:Invent 2023 - Keynote with Dr. Werner Vogels](https://www.youtube.com/watch?v=UTRBVPvzt9w), Dr. Werner Vogels walked us through the "laws" of [The Frugal Architecture](https://thefrugalarchitect.com/). Ofcourse he couldn't ignore the topic of AI so they focused on that later in the talk. Here are my notes from the keynote. As the AI part didn't give me a lot of takeaways I'm mostly focusing on The Frugal Architecture.
+Today I watched the [2023 AWS re:Invent keynote by Dr. Werner Vogels](https://www.youtube.com/watch?v=UTRBVPvzt9w). In an attempt to get some valueable takeaways from this keynote I took some notes and wrote this blogpost out of it. In his keynote Dr. Werner Vogels walked us through the "laws" of [The Frugal Architecture](https://thefrugalarchitect.com/) and ofcourse discussed some AI topics. The AI section of the presentation didn't give me a lot of takeaways so I mostly focus on The Frugal Architecture in my notes below.
 
 ##  The Frugal Architecture
 
 > Simple laws for building cost-aware, sustainable, and modern architectures.
 
-Frugal architecture consists of three main topics: Design, Measure and Optimize. Let's go over them:
+The Frugal Architecture consists of three main topics: Design, Measure and Optimize. Lets discuss each with their accompanying "laws".
 
 ### Design
 
