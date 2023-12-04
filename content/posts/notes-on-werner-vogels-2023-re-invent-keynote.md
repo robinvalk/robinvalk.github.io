@@ -1,7 +1,7 @@
 ---
 title: "Notes on: AWS re:Invent 2023 - Keynote with Dr. Werner Vogels"
 date: 2023-12-04T20:00:00+01:00
-draft: true
+draft: false
 ---
 
 In [AWS re:Invent 2023 - Keynote with Dr. Werner Vogels](https://www.youtube.com/watch?v=UTRBVPvzt9w), Dr. Werner Vogels walked us through the "laws" of [The Frugal Architecture](https://thefrugalarchitect.com/). Ofcourse he couldn't ignore the topic of AI so they focused on that later in the talk. Here are my notes from the keynote. As the AI part didn't give me a lot of takeaways I'm mostly focusing on The Frugal Architecture.
